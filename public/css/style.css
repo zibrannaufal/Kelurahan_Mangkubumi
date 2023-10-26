@@ -7,6 +7,10 @@
     margin-left: 4rem !important;
 }
 
+.bg-dark{
+    background-color: black !important;
+}
+
 .navs{
     margin-right: 0.37rem;
 }

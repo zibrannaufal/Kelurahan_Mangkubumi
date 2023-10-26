@@ -6,37 +6,37 @@
         <div class="row mb-5">
             <div class="col">
                 <div class="card" style="width: 344px; height: 434px;">
-                    <img src="images/masjid.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <img src="images/berita6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body px-5">
+                        <h5 class="card-title">Berita 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate!</p>
                     </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 344px; height: 434px;">
-                    <img src="images/masjid.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
+                    <div class="card-body" style="padding-left: 49%">
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-3" style="font-size: 13px">Selengkapnya...</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 344px; height: 434px;">
-                    <img src="images/masjid.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <img src="images/berita4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body px-5">
+                        <h5 class="card-title">Berita 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate!</p>
                     </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
+                    <div class="card-body" style="padding-left: 49%">
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-3" style="font-size: 13px">Selengkapnya...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 344px; height: 434px;">
+                    <img src="images/berita5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body px-5">
+                        <h5 class="card-title">Berita 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate!</p>
+                    </div>
+                    <div class="card-body" style="padding-left: 49%">
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-3" style="font-size: 13px">Selengkapnya...</a>
                     </div>
                 </div>
             </div>
@@ -44,37 +44,37 @@
         <div class="row mb-5">
             <div class="col">
                 <div class="card" style="width: 344px; height: 434px;">
-                    <img src="images/masjid.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <img src="images/berita4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body px-5">
+                        <h5 class="card-title">Berita 4</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate!</p>
                     </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 344px; height: 434px;">
-                    <img src="images/masjid.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
+                    <div class="card-body" style="padding-left: 49%">
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-3" style="font-size: 13px">Selengkapnya...</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card" style="width: 344px; height: 434px;">
-                    <img src="images/masjid.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <img src="images/berita5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body px-5">
+                        <h5 class="card-title">Berita 5</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate!</p>
                     </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
+                    <div class="card-body" style="padding-left: 49%">
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-3" style="font-size: 13px">Selengkapnya...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 344px; height: 434px;">
+                    <img src="images/berita6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body px-5">
+                        <h5 class="card-title">Berita 6</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cupiditate!</p>
+                    </div>
+                    <div class="card-body" style="padding-left: 49%">
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-3" style="font-size: 13px">Selengkapnya...</a>
                     </div>
                 </div>
             </div>
