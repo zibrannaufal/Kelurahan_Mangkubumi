@@ -1,12 +1,13 @@
 @extends('layouts.main')
 
 @section('container')
-<div class="container">
+<div class="container" style="background-color: #E2F2FE">
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="align-self-center">
                 <h4>Sejarah Kelurahan</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ad amet, autem veritatis officiis sunt. Voluptas alias nesciunt repellendus nemo laborum, possimus tempora tempore voluptatibus, enim magnam fugiat expedita, dolorum nisi unde. Obcaecati doloribus nobis voluptas dolorum aut laudantium necessitatibus pariatur unde, facilis ipsum aliquam a voluptatem minima earum ullam quas! Iste, cum officiis cupiditate dolorem quae labore distinctio mollitia hic vero magni facere, natus, ex maiores consectetur quod unde odio aut illo exercitationem quos modi debitis? Dolorem, dolor officia?</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ad amet, autem veritatis officiis sunt. Voluptas alias nesciunt repellendus nemo laborum, possimus tempora tempore voluptatibus, enim magnam fugiat expedita, dolorum nisi unde. Obcaecati doloribus nobis voluptas dolorum aut laudantium necessitatibus pariatur unde, facilis ipsum aliquam a voluptatem minima earum ullam quas! Iste, cum officiis cupiditate dolorem quae labore distinctio mollitia hic vero magni facere, natus, ex maiores consectetur quod unde odio aut illo exercitationem quos modi debitis? Dolorem, dolor officia</p>
                 <br>
             </div>
         </div>
@@ -17,21 +18,37 @@
         </div>
     </div>
 </div>
+<br>
+<br>
     
-<nav class="navbar navbar-expand-lg">
-    <h4 class="text-light text-center">Visi & Misi</h4>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="row justify-content-center bg-primary">
-        <div class="col-md-4">
-            <img style="width: 25rem; height:auto;" src="">
+<h4 class="text-center" style="color: #244CFF">Visi & Misi</h4>
+<p class="text-center" style="color: #244CFF">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam obcaecati dolores ut ipsa.</p>
+    <br>
+    <div class="row">
+        <div class="col-md-auto mx-auto">
+            <div class="card" style="width: 18rem;">
+                <img src="images/misi_1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <img style="width: 25rem; height:auto;" src="">
+        <div class="col-md-auto mx-auto">
+            <div class="card" style="width: 18rem;">
+                <img src="images/misi_2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <img style="width: 25rem; height:auto;" src="">
+        <div class="col-md-auto mx-auto">
+            <div class="card" style="width: 18rem;">
+                <img src="images/misi_3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
+                </div>
+            </div>
         </div>
-    </div>
-</nav>
+    </div><br>
 <br>
 @endsection
