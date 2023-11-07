@@ -1,48 +1,22 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1>Peta</h1>
-    <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>How to Add Google Map in Laravel? - Medikre.com</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <style type="text/css">
-        #map {
-          height: 400px;
-        }
-    </style>
-</head>
-    
-<body>
-    <div class="container mt-5">
-        <div id="map"></div>
-    </div>
-  
-    <script type="text/javascript">
-        function initMap() {
-          const myLatLng = { lat: 22.2734719, lng: 70.7512559 };
-          const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 5,
-            center: myLatLng,
-          });
-  
-          new google.maps.Marker({
-            position: myLatLng,
-            map,
-            title: "Hello Rajkot!",
-          });
-        }
-  
-        window.initMap = initMap;
+    <h4 class="text-center"><b>Peta Kelurahan Mangkubumi</b></h4>
+    <br>
+    <div id="mapid" style="height: 600px;"></div>
+
+    <script>
+        var map = L.map('mapid').setView([-7.346656664714616, 108.18735211758994], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([-7.346656664714616, 108.18735211758994]).addTo(map)
+            .bindPopup('<b>Kantor Kelurahan Mangkubumi</b>').openPopup();
     </script>
-  
-    <script type="text/javascript"
-        src="https://maps.google.com/maps/api/js?key={{ env('GOOGLE_MAP_KEY') }}&callback=initMap" ></script>
-  
-</body>
-</html>
+    <br>
+    <h5 class="text-center">URL map  :<a href="https://maps.app.goo.gl/Cjkw2cX1vBisYi276">https://maps.app.goo.gl/Cjkw2cX1vBisYi276</a></h5>
+    <h5 class="text-center">Koordinat : -7.346656664714616, 108.18735211758994</h5>
+    <br>
 @endsection

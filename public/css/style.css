@@ -22,3 +22,12 @@ body{
 .navs{
     margin-right: 0.37rem;
 }
+
+.pr-4{
+    padding-top: 15px;
+    padding-right: 24.5px !important;
+}
+
+.pr-5{
+    padding-right: 1px !important;
+}

@@ -1,5 +1,6 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1>Statistik</h1>
+    <h4 class="text-center"><b>Grafik Statistik Kelurahan</b></h4>
+    <br>
 @endsection

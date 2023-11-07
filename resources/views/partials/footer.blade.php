@@ -6,8 +6,8 @@
             </div>
             <div class="col ml-3 lh-1">
                 <p class="fs-6" style="font-weight: bold">KONTAK KAMI</p>
-                <p class="fs-6">Kantor Kelurahan Mangkubumi</p>
-                <p class="fs-6">Jl. Jend AH Nasution No. 2871, Mangkubumi-Tasikmalaya, Jawa Barat, 46181</p>
+                <p class="fs-6"><i class="fa-solid fa-house"></i>Kantor Kelurahan Mangkubumi</p>
+                <p class="fs-6"><i class="fa-solid fa-location-dot"></i>Jl. Jend AH Nasution No. 2871, Mangkubumi-Tasikmalaya, Jawa Barat, 46181</p>
             </div>
         </div>
     </div>    
