@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
 @section('container')
-    <p class="text-center mb-4" style="font-size: 25px; font-weight: bold;">Galeri</p>
-    <div class="container">
+    <div class="container mx-3">
+      <p class="text-center mb-4" style="font-size: 25px; font-weight: bold;">Galeri</p>
         <div class="row mb-5">
           <div class="col">
             <img src="images/UMKM.jpeg" class="img-fluid" alt="">

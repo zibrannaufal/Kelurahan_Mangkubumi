@@ -11,8 +11,18 @@ body{
 }
 
 .mx-5{
-    margin-right: 4rem !important;
+    margin-right: 0rem !important;
     margin-left: 4rem !important;
+}
+
+.mx-4{
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
+}
+
+.mx-3{
+    margin-right: 6rem !important;
+    margin-left: 7rem !important;
 }
 
 .bg-dark{
@@ -30,4 +40,12 @@ body{
 
 .pr-5{
     padding-right: 0px !important;
+}
+
+.w-40{
+    width: 185px !important;
+}
+
+.w-50{
+    width: 132px !important;
 }

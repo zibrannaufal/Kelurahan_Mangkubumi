@@ -3,8 +3,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-light text-white bg-primary">
     <div class="container my-1 mx-5 d-inline-block">
-        <div class="d-inline-block" style="font-size: 12px"><i class="fa-solid fa-tty"></i>(0265)347111</div>
-        <div class="d-inline-block mx-3" style="font-size: 12px"><i class="fa-regular fa-envelope"></i>dev@tasik.id</div>
+        <div class="d-inline-block" style="font-size: 12px"><i class="fa-solid fa-tty" style="margin-right: 4px"></i>(0265)347111</div>
+        <div class="d-inline-block" style="font-size: 12px; margin-left: 1rem; margin-right: 1rem;"><i class="fa-regular fa-envelope" style="margin-right: 4px"></i>dev@tasik.id</div>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-google-plus"></i>
@@ -41,8 +41,8 @@
             <li class="nav-item navs">
                 <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" href="/galeri">Galeri</a>
             </li>
-            <li class="nav-item navs">
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <li class="nav-item">
+                <i style="margin-top: 10px; margin-left: 14px;" class="fa-solid fa-magnifying-glass"></i>
             </li>
             </ul>
         </div>

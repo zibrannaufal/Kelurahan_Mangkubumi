@@ -20,7 +20,7 @@
         
         @include('partials.navbar')
 
-        <div class="container mt-4">
+        <div class="container mt-4" style="margin-left: 0%; margin-right: 0%; padding-left: 0%; padding-right: 0%;">
             @yield('container')
         </div>
 
