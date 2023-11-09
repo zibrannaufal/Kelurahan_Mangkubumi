@@ -151,6 +151,11 @@ Route::get('/statistik', function () {
         "title" => "Kelurahan Mangkubumi | Statistik"
     ]);
 });
+Route::get('/regulasi', function () {
+    return view('regulasi', [
+        "title" => "Kelurahan Mangkubumi | Regulasi"
+    ]);
+});
 Route::get('/galeri', function () {
     return view('galeri', [
         "title" => "Kelurahan Mangkubumi | Galeri"

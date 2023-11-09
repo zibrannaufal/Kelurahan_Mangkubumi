@@ -1,10 +1,11 @@
 @extends('layouts.main')
 
 @section('container')
-<div class="" style="background-color: #E2F2FE; width: 1365px;">
+<div class="" style="background-color: #E2F2FE; width: 1349px;">
     <div class="row align-items-center" style="width: 100%">
         <div class="col-md-6">
             <div class="align-self-center mx-3">
+                <br>
                 <h5><b>Sejarah Kelurahan</b></h5>
                 <br>
                 <p style="text-align: justify; margin-left: 60px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ad amet, autem veritatis officiis sunt. Voluptas alias nesciunt repellendus nemo laborum, possimus tempora tempore voluptatibus, enim magnam fugiat expedita, dolorum nisi unde. Obcaecati doloribus nobis voluptas dolorum aut laudantium necessitatibus pariatur unde, facilis ipsum aliquam a voluptatem minima earum ullam quas! Iste, cum officiis cupiditate dolorem quae labore distinctio mollitia hic vero magni facere, natus, ex maiores consectetur quod unde odio aut illo exercitationem quos modi debitis? Dolorem, dolor officia</p>

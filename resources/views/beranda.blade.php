@@ -19,7 +19,7 @@
         </div>
     </div>
     <br>
-    <div class="text-white bg-primary" style="width: 1365px;">
+    <div class="text-white bg-primary" style="width: 1349px;">
         <br><br>
         <h4 class="text-light text-center"><b>Statistik Kelurahan</b></h4>
         <br>

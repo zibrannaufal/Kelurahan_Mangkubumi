@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-<div class="text-white bg-primary" style="width: 1365px;">
+<div class="text-white bg-primary" style="width: 1349px;">
     <br><br>
     <br>
     <div class="row" style="width: 100%">
