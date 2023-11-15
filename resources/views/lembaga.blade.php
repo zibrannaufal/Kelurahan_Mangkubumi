@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
+    
 <div class="container mx-3">
     <h4 class="text-center"><b>Kata Sambutan</b></h4>
     <br>
