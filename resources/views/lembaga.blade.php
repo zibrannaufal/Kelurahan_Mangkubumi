@@ -20,7 +20,7 @@
     </div>
 </div>
 <div class="text-white bg-primary" style="width: 1349px;">
-    <br><br>
+    <br>
     <br>
     <div class="row" style="width: 100%">
         <div class="col-md-auto mx-auto">

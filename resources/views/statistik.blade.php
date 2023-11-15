@@ -10,7 +10,7 @@
             </div>
         </div>
         <br><br>
-        <h5><b>Statistik dalam tabel</b></h5>
+        <h5 class="garis"><b>Statistik dalam tabel</b></h5>
         <br>
         <div class="row">
             <div class="col-md-auto mx-auto">

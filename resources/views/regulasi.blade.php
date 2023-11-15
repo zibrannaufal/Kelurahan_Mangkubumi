@@ -2,7 +2,7 @@
 
 @section('container')
 <div class="container mx-3">
-    <h4 class="text-center"><b>Regulasi</b></h4>
+    <h4 class="text-center garis"><b>Regulasi</b></h4>
     <br>
         <div class="row">
             <div class="col-md-auto mx-auto">
