@@ -39,7 +39,7 @@ body{
 }
 
 .pr-5{
-    padding-right: 0px !important;
+    padding-right: 5px !important;
 }
 
 .w-40{
@@ -58,4 +58,22 @@ body{
     margin-top: 20px;
     list-style: none;
     padding-left: 0%;
+}
+
+.garis{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.garis::after {
+    content: "";
+    display: block;
+    height: 4px; /* Atur tinggi garis bawah */
+    width: 40px;
+    background-color: #333; /* Atur warna garis bawah */
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
 }

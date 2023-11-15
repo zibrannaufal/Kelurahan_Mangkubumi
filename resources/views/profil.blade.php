@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-<div class="" style="background-color: #E2F2FE; width: 1349px;">
+<div class="" style="background-color: #E2F2FE; width: 1349px; margin-top: -30px;">
     <div class="row align-items-center" style="width: 100%">
         <div class="col-md-6">
             <div class="align-self-center mx-3">

@@ -34,7 +34,7 @@
     </div>
     <br><br>
     <div class="container mx-3">
-        <h4><b>Berita Terbaru</b></h4>
+        <h4 class="garis"><b>Berita Terbaru</b></h4>
     <br><br>
     <div class="row">
         <div class="col-md-auto mx-auto">

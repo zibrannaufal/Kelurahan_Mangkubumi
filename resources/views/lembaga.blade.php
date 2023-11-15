@@ -24,12 +24,13 @@
     <br>
     <div class="row" style="width: 100%">
         <div class="col-md-auto mx-auto">
+            <h5 class="text-center" style="font-weight: bold">BAGAN SUSUNAN ORGANISASI KELURAHAN</h5><br>
             <img style="width: 40rem; height:auto;" src="images/struktur.png">
         </div>
     </div><br><br><br>
 </div><br><br><br>
 <div class="container mx-3">
-    <h4 class="text-center"><b>Daftar Nama Pegawai</b></h4><br>
+    <h4 class="garis"><b>Daftar Nama Pegawai</b></h4><br>
     <div class="d-flex justify-content-center align-items-center">
         <img src="images/pegawai.png">
     </div>
