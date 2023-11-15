@@ -8,11 +8,6 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('font-awesome/css/all.min.css') }}">
-        
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-panel/1.5.5/leaflet-panel.css"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-panel/1.5.5/leaflet-panel.min.js"></script>
 
         <title>{{ $title }}</title>
     </head>
@@ -20,11 +15,13 @@
         
         @include('partials.navbar')
 
-        <div class="container mt-4">
+        <div class="container mt-4" style="margin-left: 0%; margin-right: 0%; padding-left: 0%; padding-right: 0%;">
             @yield('container')
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     </body>
     <footer>
         @include('partials.footer')

@@ -11,8 +11,18 @@ body{
 }
 
 .mx-5{
-    margin-right: 4rem !important;
+    margin-right: 0rem !important;
     margin-left: 4rem !important;
+}
+
+.mx-4{
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
+}
+
+.mx-3{
+    margin-right: 6rem !important;
+    margin-left: 7rem !important;
 }
 
 .bg-dark{
@@ -24,10 +34,46 @@ body{
 }
 
 .pr-4{
-    padding-top: 15px;
+    padding-top: 8px;
     padding-right: 24.5px !important;
 }
 
 .pr-5{
-    padding-right: 1px !important;
+    padding-right: 5px !important;
+}
+
+.w-40{
+    width: 185px !important;
+}
+
+.w-50{
+    width: 132px !important;
+}
+
+.fs-6{
+    font-size: 14px !important;
+}
+
+.social{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.garis{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.garis::after {
+    content: "";
+    display: block;
+    height: 4px; /* Atur tinggi garis bawah */
+    width: 40px;
+    background-color: #333; /* Atur warna garis bawah */
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
 }

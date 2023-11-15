@@ -1,10 +1,9 @@
 @extends('layouts.main')
 
 @section('container')
-
-    <p class="text-center mb-5" style="font-weight: bold; font-size:22px;">Berita Terbaru</p>
+    <p class="mb-5 garis" style="font-weight: bold; font-size:22px; margin-left: 123px">Berita Terbaru</p>
     @foreach ($berita as $post)
-    <div class="container">
+    <div class="container mx-3">
         <div class="card mb-5" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-4">
