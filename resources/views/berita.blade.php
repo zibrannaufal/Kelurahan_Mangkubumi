@@ -12,9 +12,10 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <a href="/berita/{{ $post["slug"] }}">{{ $post["title"] }}</a>
+                            <a style="color: black; text-decoration-line: none; " href="/berita/{{ $post["slug"] }}">{{ $post["title"] }}</a>
                         </h5>
-                        <p class="card-text"><small class="text-muted">By: {{ $post["author"] }}</small></p>
+                        <p style="margin-bottom: 0" class="card-text"><small class="text-muted">{{ $post["author"] }}</small></p>
+                        <p class="card-text"><small class="text-muted">{{ $post["waktu"] }}</small></p>
                         <p class="card-text">{{ $post["body"] }}</p>
                     </div>
                 </div>

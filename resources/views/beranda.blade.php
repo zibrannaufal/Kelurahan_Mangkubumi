@@ -42,7 +42,8 @@
                 <img src="images/berita6.jpg" style="border-top-left-radius: 20px; border-top-right-radius: 20px" class="card-img-top">
                 <div class="card-body p-5">
                     <h5 class="card-title"><b>Berita 1</b></h5>
-                    <p style="text-align: justify" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
+                    <p class="card-text"><small class="text-muted">Minggu, 19 Nov 2023</small></p>
+                    <p style="text-align: justify; font-size: 14px" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
                     <a style="margin-left: 89px; margin-top: 10px; font-size:12px" href="#" class="btn btn-primary rounded-pill w-50">Selengkapnya...</a>
                 </div>
             </div>
@@ -52,7 +53,8 @@
                 <img src="images/berita5.jpg" style="border-top-left-radius: 20px; border-top-right-radius: 20px" class="card-img-top">
                 <div class="card-body p-5">
                     <h5 class="card-title"><b>Berita 2</b></h5>
-                    <p style="text-align: justify" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
+                    <p class="card-text"><small class="text-muted">Senin, 20 Nov 2023</small></p>
+                    <p style="text-align: justify; font-size: 14px" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
                     <a style="margin-left: 89px; margin-top: 10px; font-size:12px" href="#" class="btn btn-primary rounded-pill w-50">Selengkapnya...</a>
                 </div>
             </div>
@@ -62,7 +64,8 @@
                 <img src="images/berita4.jpg" style="border-top-left-radius: 20px; border-top-right-radius: 20px" class="card-img-top">
                 <div class="card-body p-5">
                     <h5 class="card-title"><b>Berita 3</b></h5>
-                    <p style="text-align: justify" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
+                    <p class="card-text"><small class="text-muted">Selasa, 21 Nov 2023</small></p>
+                    <p style="text-align: justify; font-size: 14px" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus earum exercitationem.</p>
                     <a style="margin-left: 89px; margin-top: 10px; font-size:12px" href="#" class="btn btn-primary rounded-pill w-50">Selengkapnya...</a>
                 </div>
             </div>

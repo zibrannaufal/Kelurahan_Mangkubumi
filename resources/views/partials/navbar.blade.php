@@ -10,28 +10,56 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight: bold">
             <li class="nav-item navs pr-5" style="padding-left: 60px">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Beranda") ? 'active' : '' }}" style="font-size: 15px" href="/">Beranda</a>
+                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Beranda") ? 'active' : '' }}" style="font-size: 13px" href="/">BERANDA</a>
             </li>
+            <div class="dropdown">
+                <li class="nav-item navs pr-5">
+                    <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Profil") ? 'active' : '' }}" style="font-size: 13px" href="/profil">PROFIL KELURAHAN</a>
+                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300 ">
+                        <a href="#">SEJARAH KELURAHAN</a>
+                        <a href="#">DEMOGRAFI</a>
+                    </div>
+                </li>
+            </div>
+            <div class="dropdown">
+                <li class="nav-item navs pr-5">
+                    <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Berita") ? 'active' : '' }}" style="font-size: 13px" href="/berita">BERITA</a>
+                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
+                        <a href="#">BERITA</a>
+                        <a href="#">ARTIKEL</a>
+                    </div>
+                </li>
+            </div>
             <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Profil") ? 'active' : '' }}" style="font-size: 15px" href="/profil">Profil Kelurahan</a>
+                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Peta") ? 'active' : '' }}" style="font-size: 13px" href="/peta">PETA KELURAHAN</a>
             </li>
+            <div class="dropdown">
+                <li class="nav-item navs pr-5">
+                    <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Lembaga") ? 'active' : '' }}" style="font-size: 13px" href="/lembaga">LEMBAGA KELURAHAN</a>
+                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
+                        <a href="#">PEMERINTAH KELURAHAN</a>
+                        <a href="#">LEMBAGA KEMASYARAKATAN KELURAHAN</a>
+                    </div>
+                </li>
+            </div>
+            <div class="dropdown">
+                <li class="nav-item navs pr-5">
+                    <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Statistik") ? 'active' : '' }}" style="font-size: 13px" href="/statistik">STATISTIK KELURAHAN</a>
+                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
+                        <a href="#">PEKERJAAN</a>
+                        <a href="#">PENDIDIKAN</a>
+                        <a href="#">STATUS KAWIN</a>
+                        <a href="#">GOLONGAN DARAH</a>
+                        <a href="#">AGAMA</a>
+                        <a href="#">KELAS SOSIAL</a>
+                    </div>
+                </li>
+            </div>
             <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Berita") ? 'active' : '' }}" style="font-size: 15px" href="/berita">Berita</a>
-            </li>
-            <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Peta") ? 'active' : '' }}" style="font-size: 15px" href="/peta">Peta Kelurahan</a>
-            </li>
-            <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Lembaga") ? 'active' : '' }}" style="font-size: 15px" href="/lembaga">Lembaga Kelurahan</a>
-            </li>
-            <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Statistik") ? 'active' : '' }}" style="font-size: 15px" href="/statistik">Statistik Kelurahan</a>
-            </li>
-            <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Regulasi") ? 'active' : '' }}" style="font-size: 15px" href="/regulasi">Regulasi</a>
+                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Regulasi") ? 'active' : '' }}" style="font-size: 13px" href="/regulasi">REGULASI</a>
             </li>
             <li class="nav-item navs">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" style="font-size: 15px" href="/galeri">Galeri</a>
+                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" style="font-size: 13px" href="/galeri">GALERI</a>
             </li>
             </ul>
         </div>

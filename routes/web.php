@@ -30,6 +30,7 @@ Route::get('/berita', function () {
             "title" => "Berita 1",
             "slug" => "berita-1",
             "author" => "Zibran",
+            "waktu" => "Minggu, 19 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -37,6 +38,7 @@ Route::get('/berita', function () {
             "title" => "Berita 2",
             "slug" => "berita-2",
             "author" => "Habil",
+            "waktu" => "Jumat, 24 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -44,6 +46,7 @@ Route::get('/berita', function () {
             "title" => "Berita 3",
             "slug" => "berita-3",
             "author" => "Pramudya",
+            "waktu" => "Minggu, 26 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -51,6 +54,7 @@ Route::get('/berita', function () {
             "title" => "Berita 4",
             "slug" => "berita-4",
             "author" => "Zibran",
+            "waktu" => "Kamis, 30 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -58,6 +62,7 @@ Route::get('/berita', function () {
             "title" => "Berita 5",
             "slug" => "berita-5",
             "author" => "Pramudya",
+            "waktu" => "Jumat, 1 Des 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -65,6 +70,7 @@ Route::get('/berita', function () {
             "title" => "Berita 6",
             "slug" => "berita-6",
             "author" => "Habil",
+            "waktu" => "Sabtu, 2 Des 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ]
         ];
@@ -83,6 +89,7 @@ Route::get('berita/{slug}', function($slug){
             "title" => "Berita 1",
             "slug" => "berita-1",
             "author" => "Zibran",
+            "waktu" => "Sabtu, 2 Des 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -90,6 +97,7 @@ Route::get('berita/{slug}', function($slug){
             "title" => "Berita 2",
             "slug" => "berita-2",
             "author" => "Habil",
+            "waktu" => "Jumat, 24 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -97,6 +105,7 @@ Route::get('berita/{slug}', function($slug){
             "title" => "Berita 3",
             "slug" => "berita-3",
             "author" => "Pramudya",
+            "waktu" => "Minggu, 26 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -104,6 +113,7 @@ Route::get('berita/{slug}', function($slug){
             "title" => "Berita 4",
             "slug" => "berita-4",
             "author" => "Zibran",
+            "waktu" => "Kamis, 30 Nov 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -111,6 +121,7 @@ Route::get('berita/{slug}', function($slug){
             "title" => "Berita 5",
             "slug" => "berita-5",
             "author" => "Pramudya",
+            "waktu" => "Jumat, 1 Des 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ],
         [
@@ -118,6 +129,7 @@ Route::get('berita/{slug}', function($slug){
             "title" => "Berita 6",
             "slug" => "berita-6",
             "author" => "Habil",
+            "waktu" => "Sabtu, 2 Des 2023",
             "body" => "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque provident veniam fugiat perspiciatis maiores exercitationem eaque eveniet minima unde veritatis nisi ipsa quae, aliquam ducimus sunt ut quo numquam commodi? Laboriosam deleniti repellendus harum aperiam unde excepturi temporibus nostrum qui!"
         ]
         ];
