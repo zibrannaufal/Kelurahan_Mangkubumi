@@ -30,9 +30,16 @@
                     </div>
                 </li>
             </div>
-            <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Peta") ? 'active' : '' }}" style="font-size: 13px" href="/peta">PETA KELURAHAN</a>
-            </li>
+            <div class="dropdown">
+                <li class="nav-item navs pr-5">
+                    <a class="nav-link dropbtn" style="font-size: 13px" href="#">INFORMASI</a>
+                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
+                        <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Regulasi") ? 'active' : '' }}" href="/regulasi">REGULASI</a>
+                        <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" href="/galeri">GALERI</a>
+                        <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Peta") ? 'active' : '' }}" href="/peta">PETA KELURAHAN</a>
+                    </div>
+                </li>   
+            </div>
             <div class="dropdown">
                 <li class="nav-item navs pr-5">
                     <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Lembaga") ? 'active' : '' }}" style="font-size: 13px" href="/lembaga">LEMBAGA KELURAHAN</a>
@@ -56,10 +63,10 @@
                 </li>
             </div>
             <li class="nav-item navs pr-5">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Regulasi") ? 'active' : '' }}" style="font-size: 13px" href="/regulasi">REGULASI</a>
+                <a class="nav-link" style="font-size: 13px" href="https://ppid.tasikmalayakota.go.id/">PPID</a>
             </li>
             <li class="nav-item navs">
-                <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" style="font-size: 13px" href="/galeri">GALERI</a>
+                <a class="nav-link" style="font-size: 13px" href="https://www.lapor.go.id/">SP4N LAPOR</a>
             </li>
             </ul>
         </div>
