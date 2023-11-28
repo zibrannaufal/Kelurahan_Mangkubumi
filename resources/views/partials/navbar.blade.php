@@ -16,8 +16,8 @@
                 <li class="nav-item navs pr-5">
                     <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Profil") ? 'active' : '' }}" style="font-size: 13px" href="/profil">PROFIL KELURAHAN</a>
                     <div class="dropdown-content" style="font-size: 12px; font-weight: 300 ">
-                        <a href="#">SEJARAH KELURAHAN</a>
-                        <a href="#">DEMOGRAFI</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">SEJARAH KELURAHAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">DEMOGRAFI</a>
                     </div>
                 </li>
             </div>
@@ -25,8 +25,8 @@
                 <li class="nav-item navs pr-5">
                     <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Berita") ? 'active' : '' }}" style="font-size: 13px" href="/berita">BERITA</a>
                     <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
-                        <a href="#">BERITA</a>
-                        <a href="#">ARTIKEL</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">BERITA</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">ARTIKEL</a>
                     </div>
                 </li>
             </div>
@@ -34,9 +34,9 @@
                 <li class="nav-item navs pr-5">
                     <a class="nav-link dropbtn" style="font-size: 13px" href="#">INFORMASI</a>
                     <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
-                        <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Regulasi") ? 'active' : '' }}" href="/regulasi">REGULASI</a>
-                        <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" href="/galeri">GALERI</a>
-                        <a class="nav-link {{ ($title === "Kelurahan Mangkubumi | Peta") ? 'active' : '' }}" href="/peta">PETA KELURAHAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" class="nav-link {{ ($title === "Kelurahan Mangkubumi | Regulasi") ? 'active' : '' }}" href="/regulasi">REGULASI</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" class="nav-link {{ ($title === "Kelurahan Mangkubumi | Galeri") ? 'active' : '' }}" href="/galeri">GALERI</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" class="nav-link {{ ($title === "Kelurahan Mangkubumi | Peta") ? 'active' : '' }}" href="/peta">PETA KELURAHAN</a>
                     </div>
                 </li>   
             </div>
@@ -44,21 +44,30 @@
                 <li class="nav-item navs pr-5">
                     <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Lembaga") ? 'active' : '' }}" style="font-size: 13px" href="/lembaga">LEMBAGA KELURAHAN</a>
                     <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
-                        <a href="#">PEMERINTAH KELURAHAN</a>
-                        <a href="#">LEMBAGA KEMASYARAKATAN KELURAHAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">PEMERINTAH KELURAHAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">LEMBAGA KEMASYARAKATAN KELURAHAN</a>
                     </div>
                 </li>
             </div>
             <div class="dropdown">
                 <li class="nav-item navs pr-5">
                     <a class="nav-link dropbtn {{ ($title === "Kelurahan Mangkubumi | Statistik") ? 'active' : '' }}" style="font-size: 13px" href="/statistik">STATISTIK KELURAHAN</a>
-                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300">
-                        <a href="#">PEKERJAAN</a>
-                        <a href="#">PENDIDIKAN</a>
-                        <a href="#">STATUS KAWIN</a>
-                        <a href="#">GOLONGAN DARAH</a>
-                        <a href="#">AGAMA</a>
-                        <a href="#">KELAS SOSIAL</a>
+                    <div class="dropdown-content" style="font-size: 12px; font-weight: 300;">
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">PEKERJAAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">PENDIDIKAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">STATUS KAWIN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">GOLONGAN DARAH</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">AGAMA</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">KELAS SOSIAL</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">RASKIN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">JAMKESMAS</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">PROGRAM KELUARGA HARAPAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">KEPALA KELUARGA</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">GIZI BURUK</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">KEHAMILANL</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">BURUH MIGRAN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">BANTUAN SISWA MISKIN</a>
+                        <a style="padding-top:7px; padding-bottom:7px;" href="#">PIRAMIDA PENDUDUK</a>
                     </div>
                 </li>
             </div>
